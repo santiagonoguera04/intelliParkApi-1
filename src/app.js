@@ -20,7 +20,11 @@ const app = express();
 app.disable("x-powered-by");
 
 app.use(cors());
-app.use(express.json());
+
+//la ortografia viaja temporalmente como Base64.
+//El limite evita aceptar cuerpos demasiados grandes.
+app.use(express.json({ limit: '8mb' }));
+
 
 app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
