@@ -186,4 +186,8 @@ router.get(
 );
 
 
+<<<<<<< HEAD
 module.exports = router;
+=======
+module.exports = router;
+>>>>>>> 442c87bec5a52c7c631215999c829dd8c5d64e7f

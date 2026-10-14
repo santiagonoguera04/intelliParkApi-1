@@ -32,4 +32,8 @@ const validatePlateImage = (req, res, next) => {
 
 module.exports = {
   validatePlateImage
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 442c87bec5a52c7c631215999c829dd8c5d64e7f
